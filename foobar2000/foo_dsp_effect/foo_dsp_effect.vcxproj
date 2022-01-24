@@ -125,20 +125,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\AAFilter.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\BPMDetect.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\cpu_detect_x86.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\FIFOSampleBuffer.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\FIRFilter.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateCubic.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateLinear.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateShannon.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\mmx_optimized.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\PeakFinder.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\RateTransposer.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\SoundTouch.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\sse_optimized.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\TDStretch.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\AAFilter.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\BPMDetect.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\cpu_detect_x86.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\FIFOSampleBuffer.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\FIRFilter.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\InterpolateCubic.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\InterpolateLinear.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\InterpolateShannon.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\mmx_optimized.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\PeakFinder.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\RateTransposer.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\SoundTouch.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\sse_optimized.cpp" />
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\TDStretch.cpp" />
     <ClCompile Include="dmodsp.cpp" />
     <ClCompile Include="dsp_chorus.cpp" />
     <ClCompile Include="dsp_dmo.cpp" />
@@ -164,20 +164,20 @@
     <ResourceCompile Include="foo_dsp_effect.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\AAFilter.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\BPMDetect.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\cpu_detect.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\FIFOSampleBuffer.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\FIFOSamplePipe.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\FIRFilter.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateCubic.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateLinear.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateShannon.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\PeakFinder.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\RateTransposer.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\SoundTouch.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\STTypes.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\TDStretch.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\AAFilter.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\BPMDetect.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\cpu_detect.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\FIFOSampleBuffer.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\FIFOSamplePipe.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\FIRFilter.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\InterpolateCubic.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\InterpolateLinear.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\InterpolateShannon.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\PeakFinder.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\RateTransposer.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\SoundTouch.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\STTypes.h" />
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\TDStretch.h" />
     <ClInclude Include="..\foo_sample\resource.h" />
     <ClInclude Include="circular_buffer.h" />
     <ClInclude Include="dmodsp.h" />
@@ -210,10 +210,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\3rdparty-deps\SoundTouch\Makefile.am" />
-    <None Include="..\..\..\3rdparty-deps\SoundTouch\SoundTouch.sln" />
-    <None Include="..\..\..\3rdparty-deps\SoundTouch\SoundTouch.vcxproj" />
-    <None Include="..\..\..\3rdparty-deps\SoundTouch\soundtouch_config.h.in" />
+    <None Include="..\..\3rdparty-deps\SoundTouch\Makefile.am" />
+    <None Include="..\..\3rdparty-deps\SoundTouch\SoundTouch.sln" />
+    <None Include="..\..\3rdparty-deps\SoundTouch\SoundTouch.vcxproj" />
+    <None Include="..\..\3rdparty-deps\SoundTouch\soundtouch_config.h.in" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -28,46 +28,46 @@
     <ClCompile Include="dmodsp.cpp" />
     <ClCompile Include="dsp_dmo.cpp" />
     <ClCompile Include="dsp_chorus.cpp" />
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\AAFilter.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\AAFilter.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\BPMDetect.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\BPMDetect.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\cpu_detect_x86.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\cpu_detect_x86.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\FIFOSampleBuffer.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\FIFOSampleBuffer.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\FIRFilter.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\FIRFilter.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateCubic.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\InterpolateCubic.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateLinear.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\InterpolateLinear.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateShannon.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\InterpolateShannon.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\mmx_optimized.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\mmx_optimized.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\PeakFinder.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\PeakFinder.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\RateTransposer.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\RateTransposer.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\SoundTouch.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\SoundTouch.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\sse_optimized.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\sse_optimized.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\3rdparty-deps\SoundTouch\TDStretch.cpp">
+    <ClCompile Include="..\..\3rdparty-deps\SoundTouch\TDStretch.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
   </ItemGroup>
@@ -94,46 +94,46 @@
     <ClInclude Include="dsp_guids.h" />
     <ClInclude Include="..\foo_sample\resource.h" />
     <ClInclude Include="dmodsp.h" />
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\AAFilter.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\AAFilter.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\BPMDetect.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\BPMDetect.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\cpu_detect.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\cpu_detect.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\FIFOSampleBuffer.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\FIFOSampleBuffer.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\FIFOSamplePipe.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\FIFOSamplePipe.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\FIRFilter.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\FIRFilter.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateCubic.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\InterpolateCubic.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateLinear.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\InterpolateLinear.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\InterpolateShannon.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\InterpolateShannon.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\PeakFinder.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\PeakFinder.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\RateTransposer.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\RateTransposer.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\SoundTouch.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\SoundTouch.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\STTypes.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\STTypes.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\3rdparty-deps\SoundTouch\TDStretch.h">
+    <ClInclude Include="..\..\3rdparty-deps\SoundTouch\TDStretch.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
   </ItemGroup>
@@ -149,16 +149,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\3rdparty-deps\SoundTouch\Makefile.am">
+    <None Include="..\..\3rdparty-deps\SoundTouch\Makefile.am">
       <Filter>DSP\SoundTouch</Filter>
     </None>
-    <None Include="..\..\..\3rdparty-deps\SoundTouch\SoundTouch.sln">
+    <None Include="..\..\3rdparty-deps\SoundTouch\SoundTouch.sln">
       <Filter>DSP\SoundTouch</Filter>
     </None>
-    <None Include="..\..\..\3rdparty-deps\SoundTouch\SoundTouch.vcxproj">
+    <None Include="..\..\3rdparty-deps\SoundTouch\SoundTouch.vcxproj">
       <Filter>DSP\SoundTouch</Filter>
     </None>
-    <None Include="..\..\..\3rdparty-deps\SoundTouch\soundtouch_config.h.in">
+    <None Include="..\..\3rdparty-deps\SoundTouch\soundtouch_config.h.in">
       <Filter>DSP\SoundTouch</Filter>
     </None>
     <None Include="packages.config" />
