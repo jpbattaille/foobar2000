@@ -3,8 +3,8 @@
 #include "../../libPPUI/win32_op.h" // WIN32_OP()
 #include "../helpers/BumpableElem.h"
 #include "resource.h"
-#include "../../../3rdparty-deps/SoundTouch/SoundTouch.h"
-#include "../../../3rdparty-deps/rubberband/rubberband/RubberBandStretcher.h"
+#include "../../3rdparty-deps/SoundTouch/SoundTouch.h"
+#include "../../3rdparty-deps/rubberband/rubberband/RubberBandStretcher.h"
 #include "circular_buffer.h"
 #include "dsp_guids.h"
 

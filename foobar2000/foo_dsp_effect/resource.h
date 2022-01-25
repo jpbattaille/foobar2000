@@ -53,7 +53,7 @@
 #define IDC_WAHLFOFREQINFO2             1037
 #define IDC_WAHLFOPHASEINFO             1038
 #define IDC_DISPLAY                     1040
-#define IDD_IIR                         1041
+#define IDD_IIR_LAYOUT                  1041
 #define IDC_IIRFREQ                     1042
 #define IDC_PEAKLIMIT                   1042
 #define IDC_IIRFREQINFO                 1044
@@ -97,6 +97,8 @@
 #define IDC_TEMPOTYPE                   1071
 #define IDC_PITCHENABLE2                1072
 #define IDC_IIRTYPELABEL                1072
+#define IDC_IIRTYPELABEL2               1073
+#define IDC_IIRTYPELABEL_Filter         1073
 #define IDC_COMBO2                      1077
 #define IDC_IIRFREQ1                    1099
 #define IDC_IIRFREQINFO1                1100
@@ -306,6 +308,9 @@
 #define IDC_IDC_RESETCHRUI5             1292
 #define IDC_RESETCHRUI5                 1292
 #define IDC_RESETCHR5                   1293
+#define IDC_IIRTYPELABEL_Frequency      1295
+#define IDC_STATIC_Q                    1296
+#define IDC_STATIC_Gain                 1297
 #define IDC_SLIDER                      -1
 
 // Next default values for new objects

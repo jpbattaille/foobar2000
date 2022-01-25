@@ -31,6 +31,7 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
     <PlatformToolset>v142</PlatformToolset>
@@ -91,6 +92,10 @@
       </DataExecutionPrevention>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -109,7 +114,7 @@
     <Link>
       <AdditionalOptions>/Zi %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>..\shared\shared.lib;msdmo.lib;dmoguids.lib;amstrmid.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>C:\apps\foobar2000\components\foo_dsp_effect.dll</OutputFile>
+      <OutputFile>C:\DATA\foobarDev\profile\user-components\foo_dsp_effect\foo_dsp_effect.dll</OutputFile>
       <AdditionalLibraryDirectories>..\shared;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
@@ -139,12 +144,14 @@
     <ClCompile Include="..\..\3rdparty-deps\SoundTouch\SoundTouch.cpp" />
     <ClCompile Include="..\..\3rdparty-deps\SoundTouch\sse_optimized.cpp" />
     <ClCompile Include="..\..\3rdparty-deps\SoundTouch\TDStretch.cpp" />
+    <ClCompile Include="CMyDSPPopupIIR.cpp" />
     <ClCompile Include="dmodsp.cpp" />
     <ClCompile Include="dsp_chorus.cpp" />
     <ClCompile Include="dsp_dmo.cpp" />
     <ClCompile Include="dsp_echo.cpp" />
     <ClCompile Include="dsp_freeverb.cpp" />
     <ClCompile Include="dsp_iir.cpp" />
+    <ClCompile Include="dsp_lpf.cpp" />
     <ClCompile Include="dsp_phaser.cpp" />
     <ClCompile Include="dsp_soundtouch.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
@@ -153,11 +160,13 @@
     <ClCompile Include="dsp_tremelo.cpp" />
     <ClCompile Include="dsp_vibrato.cpp" />
     <ClCompile Include="dsp_wahwah.cpp" />
+    <ClCompile Include="IIR_Layout.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="echo.cpp" />
     <ClCompile Include="freeverb.cpp" />
     <ClCompile Include="iirfilters.cpp" />
     <ClCompile Include="phaser.cpp" />
+    <ClCompile Include="uielem_iir.cpp" />
     <ClCompile Include="wahwah.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -182,11 +191,14 @@
     <ClInclude Include="circular_buffer.h" />
     <ClInclude Include="dmodsp.h" />
     <ClInclude Include="dsp_guids.h" />
+    <ClInclude Include="dsp_iir.h" />
+    <ClInclude Include="IIR_Layout.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="echo.h" />
     <ClInclude Include="freeverb.h" />
     <ClInclude Include="iirfilters.h" />
     <ClInclude Include="phaser.h" />
+    <ClInclude Include="uielem_iir.h" />
     <ClInclude Include="wahwah.h" />
   </ItemGroup>
   <ItemGroup>

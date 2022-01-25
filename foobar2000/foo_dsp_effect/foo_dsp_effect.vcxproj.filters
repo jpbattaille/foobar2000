@@ -70,6 +70,10 @@
     <ClCompile Include="..\..\3rdparty-deps\SoundTouch\TDStretch.cpp">
       <Filter>DSP\SoundTouch</Filter>
     </ClCompile>
+    <ClCompile Include="dsp_lpf.cpp" />
+    <ClCompile Include="IIR_Layout.cpp" />
+    <ClCompile Include="uielem_iir.cpp" />
+    <ClCompile Include="CMyDSPPopupIIR.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
@@ -136,6 +140,9 @@
     <ClInclude Include="..\..\3rdparty-deps\SoundTouch\TDStretch.h">
       <Filter>DSP\SoundTouch</Filter>
     </ClInclude>
+    <ClInclude Include="dsp_iir.h" />
+    <ClInclude Include="IIR_Layout.h" />
+    <ClInclude Include="uielem_iir.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="foo_dsp_effect.rc" />
