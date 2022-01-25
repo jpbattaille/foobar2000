@@ -83,7 +83,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>shared.lib;msdmo.lib;dmoguids.lib;amstrmid.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>C:\apps\fb2kdbg\components\foo_dsp_effect.dll</OutputFile>
+      <OutputFile>C:\DATA\foobarDev\profile\user-components\foo_dsp_effect\foo_dsp_effect.dll</OutputFile>
       <AdditionalLibraryDirectories>..\shared;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
@@ -93,8 +93,7 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <PostBuildEvent>
-      <Command>
-      </Command>
+      <Command>powershell "Start-Process C:\DATA\foobarDev\foobar2000.exe"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -151,7 +150,6 @@
     <ClCompile Include="dsp_echo.cpp" />
     <ClCompile Include="dsp_freeverb.cpp" />
     <ClCompile Include="dsp_iir.cpp" />
-    <ClCompile Include="dsp_lpf.cpp" />
     <ClCompile Include="dsp_phaser.cpp" />
     <ClCompile Include="dsp_soundtouch.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
@@ -160,13 +158,11 @@
     <ClCompile Include="dsp_tremelo.cpp" />
     <ClCompile Include="dsp_vibrato.cpp" />
     <ClCompile Include="dsp_wahwah.cpp" />
-    <ClCompile Include="IIR_Layout.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="echo.cpp" />
     <ClCompile Include="freeverb.cpp" />
     <ClCompile Include="iirfilters.cpp" />
     <ClCompile Include="phaser.cpp" />
-    <ClCompile Include="uielem_iir.cpp" />
     <ClCompile Include="wahwah.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -192,13 +188,11 @@
     <ClInclude Include="dmodsp.h" />
     <ClInclude Include="dsp_guids.h" />
     <ClInclude Include="dsp_iir.h" />
-    <ClInclude Include="IIR_Layout.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="echo.h" />
     <ClInclude Include="freeverb.h" />
     <ClInclude Include="iirfilters.h" />
     <ClInclude Include="phaser.h" />
-    <ClInclude Include="uielem_iir.h" />
     <ClInclude Include="wahwah.h" />
   </ItemGroup>
   <ItemGroup>

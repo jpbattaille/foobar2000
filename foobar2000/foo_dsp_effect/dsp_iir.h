@@ -16,9 +16,9 @@ class dsp_iir_default
 	static const int Freq = 400;
 	static const int FreqMax = 16000;
 	static const int FreqRangeTotal = FreqMax - FreqMin;
-	static const int GainMin = -40;
+	static const int GainMin = -20;
 	static const int Gain = 5;
-	static const int GainMax = 40;
+	static const int GainMax = 20;
 	static const int GainRangeTotal = GainMax - GainMin;
 	static const int Type = LPF;
 	static constexpr float Qual = 0.707;
@@ -123,12 +123,21 @@ class CMyDSPPopupIIR : public CDialogImpl<CMyDSPPopupIIR>
 {
 public:
 	CMyDSPPopupIIR(const dsp_preset& initData, dsp_preset_edit_callback& callback);
-	enum { IDD = IDD_IIR_LAYOUT };
+	enum { IDD = IDD_IIR1 };
+	enum
+		{
+			FreqMin = 0,
+			FreqMax = 40000,
+			FreqRangeTotal = FreqMax,
+			GainMin = -100,
+			GainMax = 100,
+			GainRangeTotal = GainMax - GainMin
+		};
 	const GUID g_get_guid() {
 		return guid_iir;
 	}
 
-	BEGIN_MSG_MAP(CMyDSPPopup)
+	BEGIN_MSG_MAP(CMyDSPPopupIIR)
 		MSG_WM_INITDIALOG(OnInitDialog)
 		COMMAND_HANDLER_EX(IDOK, BN_CLICKED, OnButton)
 		COMMAND_HANDLER_EX(IDCANCEL, BN_CLICKED, OnButton)
@@ -164,10 +173,5 @@ private:
 
 };
 
-class popup_lpf : public CMyDSPPopupIIR
-{
-	const GUID g_get_guid() {
-		return guid_lpf;
-	}
-};
+
 #endif

@@ -1,8 +1,6 @@
 #include "dsp_iir.h"
 
-CMyDSPPopupIIR::CMyDSPPopupIIR(const dsp_preset& initData, dsp_preset_edit_callback& callback) : m_initData(initData), m_callback(callback) { }
-enum { IDD = IDD_IIR_LAYOUT
-};
+CMyDSPPopupIIR::CMyDSPPopupIIR(const dsp_preset& initData, dsp_preset_edit_callback& callback) : m_initData(initData), m_callback(callback) { };
 
 
 LRESULT CMyDSPPopupIIR::OnEditControlChange(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled)
